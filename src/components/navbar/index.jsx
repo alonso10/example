@@ -24,8 +24,8 @@ function Navbar() {
             Users
           </NavLink>
 
-          <NavLink to="/dos" className="navbar-item">
-            Documentation
+          <NavLink to="/posts" className="navbar-item">
+            Posts
           </NavLink>
         </div>
       </div>

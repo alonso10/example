@@ -9,9 +9,7 @@ function Users(props) {
 
   useEffect(() => {
     const fecthUser = async () => {
-      const result = await axios(
-        'https://jsonplaceholder.typicode.com/users',
-      );
+      const result = await axios('/users');
       setUsers(result.data);      
     }
 
